@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog - Codelândia</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/scripts.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container flexbox">
+        <h1 class="header__logo fw-400">Codelândia</h1>
+        <p class="header__text fw-400">blog</p>
+        <form class="fb-100 flexbox form__search" onsubmit="submitForm(event)">
+          <input
+            type="search"
+            name="search"
+            class="bg-form"
+            placeholder="Pesquisar no blog" />
+          <button type="submit" class="bg-form">
+            <i class="fa-solid fa-magnifying-glass header__icon"></i>
+          </button>
+        </form>
+      </div>
+    </header>
+    <main>
+      <section class="container">
+        <article class="post flexbox">
+          <time datetime="2021-07-02" class="post__date fw-400"
+            >02 de jul, 2021</time
+          >
+          <i
+            class="post__icon fa-regular fa-heart"
+            onclick="buttonHeart(event)"></i>
+          <h1 class="post__title fw-400 fb-100">
+            Agora é oficial: o Windows 11 está vindo
+          </h1>
+          <p class="post__text fw-400 fb-100">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus
+            vel diam fringilla, eu ullamcorper ex iaculis.
+          </p>
+        </article>
+        <article class="post flexbox">
+          <time datetime="2021-07-02" class="post__date fw-400"
+            >02 de jul, 2021</time
+          >
+          <i class="fa-regular fa-heart post__icon"></i>
+          <h1 class="post__title fw-400 fb-100">
+            Tim Berners-Lee vai leiloar código-fonte da web
+          </h1>
+          <p class="post__text fw-400 fb-100">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus
+            vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor
+            justo. Vestibulum nisl orci, lacinia venenatis leo sit amet,
+            pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et,
+            interdum ullamcorper libero.
+          </p>
+        </article>
+        <article class="post flexbox">
+          <time datetime="2021-07-02" class="post__date fw-400"
+            >02 de jul, 2021</time
+          >
+          <i class="fa-regular fa-heart post__icon"></i>
+          <h1 class="post__title fw-400 fb-100">
+            Tem Firefox novo no pedaço e você vai querer migrar
+          </h1>
+          <p class="post__text fw-400 fb-100">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            vestibulum auctor est.
+          </p>
+        </article>
+        <article class="post flexbox">
+          <time datetime="2021-07-02" class="post__date fw-400"
+            >02 de jul, 2021</time
+          >
+          <i class="fa-regular fa-heart post__icon"></i>
+          <h1 class="post__title fw-400 fb-100">
+            John McAfee, criador do antivírus McAfee, morre
+          </h1>
+          <p class="post__text fw-400 fb-100">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus
+            vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor
+            justo. Vestibulum nisl orci, lacinia venenatis leo sit amet,
+            pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et,
+            interdum ullamcorper libero.
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

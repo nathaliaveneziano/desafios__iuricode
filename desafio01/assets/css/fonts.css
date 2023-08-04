@@ -1,0 +1,29 @@
+/* lexend-deca-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/lexend-deca/lexend-deca-v21-latin-regular.eot');
+  src: url('../fonts/lexend-deca/lexend-deca-v21-latin-regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/lexend-deca/lexend-deca-v21-latin-regular.woff2') format('woff2'),
+    url('../fonts/lexend-deca/lexend-deca-v21-latin-regular.woff') format('woff'),
+    url('../fonts/lexend-deca/lexend-deca-v21-latin-regular.ttf') format('truetype'),
+    url('../fonts/lexend-deca/lexend-deca-v21-latin-regular.svg#LexendDeca')
+      format('svg');
+}
+
+/* inter-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/inter/inter-v12-latin-500.eot');
+  src: url('../fonts/inter/inter-v12-latin-500.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/inter/inter-v12-latin-500.woff2') format('woff2'),
+    url('../fonts/inter/inter-v12-latin-500.woff') format('woff'),
+    url('../fonts/inter/inter-v12-latin-500.ttf') format('truetype'),
+    url('../fonts/inter/inter-v12-latin-500.svg#Inter') format('svg');
+}

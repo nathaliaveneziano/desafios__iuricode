@@ -4,7 +4,7 @@ Bem-vindo(a) ao Desafios Frontend! Este projeto open source é um conjunto de de
 
 | ## | Desafio        | Código                       | Preview                      |
 |----|----------------|:----------------------------:|:----------------------------:|
-| 01 | Blog           |        |         |
+| 01 | Blog           | [👩‍💻](https://bit.ly/3rPqn2a) | [💻](https://bit.ly/44UdEdd) |
 | 02 | JordanShoes    |        |         |
 | 03 | One Page       |        |         |
 | 04 | Login          |        |         |

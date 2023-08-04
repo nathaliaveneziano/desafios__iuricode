@@ -1,0 +1,167 @@
+@import url(./reset.css);
+@import url(./variaveis.css);
+@import url(./fonts.css);
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lexend Deca', serif;
+  background-color: var(--gray-light);
+}
+
+mark {
+  background: var(--linear-alpha);
+}
+
+/* Reutilizable Classes */
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fb-100 {
+  flex: 1 0 100%;
+}
+
+.bg-form {
+  color: var(--white);
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+/* Header */
+header {
+  width: 100%;
+  background: var(--linear);
+  color: var(--white);
+  padding: 41px 0;
+}
+
+.header__logo,
+.header__text {
+  font-size: 24px;
+  margin-bottom: 73px;
+}
+
+.form__search {
+  flex-direction: row-reverse;
+}
+
+.form__search input {
+  width: calc(100% - 55px);
+  padding: 22px;
+  border-top-right-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.form__search input::placeholder {
+  color: var(--white);
+}
+
+.form__search button {
+  font-size: 22px;
+  padding: 16.5px;
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
+}
+
+/* Main */
+main {
+  color: var(--text);
+}
+
+main .container {
+  padding: 75px 0;
+}
+
+.post {
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  box-shadow: 0px 0px 10px 0px rgba(19, 19, 31, 0.05);
+  margin: 25px 0;
+  padding: 25px;
+}
+
+.post__date {
+  font-size: 16px;
+}
+
+.post__icon {
+  color: var(--blue-dark);
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.3s;
+  animation: showIcon 0.3s ease-in-out;
+}
+
+.post__title {
+  color: var(--title);
+  font-size: 26px;
+  margin-top: 22px;
+}
+
+.post__text {
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 599px) {
+  .header__logo,
+  .header__text {
+    font-size: 18px;
+    margin-bottom: 41px;
+  }
+
+  .form__search input {
+    width: calc(100% - 37px);
+    padding: 12px;
+  }
+
+  .form__search button {
+    font-size: 14px;
+    padding: 11.5px;
+  }
+
+  main .container {
+    padding: 37.5px 0;
+  }
+
+  .post {
+    margin: 25px 0;
+    padding: 16px;
+  }
+
+  .post__date {
+    font-size: 14px;
+  }
+
+  .post__icon {
+    font-size: 18px;
+  }
+
+  .post__title {
+    font-size: 18px;
+    margin-top: 27px;
+  }
+
+  .post__text {
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
